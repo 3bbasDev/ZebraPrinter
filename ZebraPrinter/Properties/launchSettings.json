@@ -1,0 +1,42 @@
+﻿//{
+//  "profiles": {
+//    "ZebraPrinter": {
+//      "commandName": "Project",
+//      "dotnetRunMessages": true,
+//      "environmentVariables": {
+//        "DOTNET_ENVIRONMENT": "Development"
+//      }
+//    }
+//  }
+//}
+
+{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:61829",
+      "sslPort": 44330
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "home",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "WindowsServiceApiDemo": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "home",
+      "applicationUrl": "http://localhost:5000",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
